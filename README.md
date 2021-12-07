@@ -9,11 +9,14 @@ Steps that will help you scrape web page:
 1) Install scrapy directly with:
 >pip install scrapy
 
+
 2) Make new scrapy project:
 > !scrapy startproject spider_name
 
+
 3) Save data in csv file:
 >!scrapy crawl spider_name -O file_name.csv
+
 
 4) Display saved data from csv file via pandas:
 >import pandas as pd
