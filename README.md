@@ -14,12 +14,15 @@ Steps that will help you scrape web page:
 >pip install scrapy
 
 
+
 2) Make new scrapy project:
 > !scrapy startproject spider_name
 
 
+
 3) Save data in csv file:
 >!scrapy crawl spider_name -O file_name.csv
+
 
 
 4) Display saved data from csv file via pandas:
@@ -28,6 +31,7 @@ Steps that will help you scrape web page:
 >data = pd.read_csv('file_name.csv')
 >
 >data.head()
+
 
 
 ## License
