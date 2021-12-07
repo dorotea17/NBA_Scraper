@@ -1,8 +1,12 @@
+# Scraping NBA page using Scrapy
+
 Scrapy is a Python framework for large scale web scraping. 
 It gives you all the tools you need to efficiently extract data from websites, process them as you want, and store them in your preferred structure and format.
 
 [![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/19oQcz6XszWJNUpXBbaQIIo7dtpex4pQ4?usp=sharing)
 
+
+## Scraping in Google Colab
 
 Steps that will help you scrape web page:
 
@@ -24,3 +28,8 @@ Steps that will help you scrape web page:
 >data = pd.read_csv('file_name.csv')
 >
 >data.head()
+
+
+## License
+
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
