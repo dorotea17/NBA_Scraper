@@ -20,5 +20,7 @@ Steps that will help you scrape web page:
 
 4) Display saved data from csv file via pandas:
 >import pandas as pd
+>
 >data = pd.read_csv('file_name.csv')
+>
 >data.head()
